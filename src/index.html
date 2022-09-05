@@ -8,18 +8,20 @@
 	<meta name="robots" content="all">
 
 	<title>Андрей Браун - Веб-разработчик</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header>
 			<nav>
 				<div class="logo">Андрей Браун</div>
 				<div class="menu"><ul>
-					<li>Обо мне</li>
-					<li>Услуги</li>
-					<li>Кейсы</li>
-					<li>Прайс</li>
-					<li>Отзывы</li>
-					<li>Контакты</li>
+					<li><a class="nav_link" href="#">Обо мне</a></li>
+					<li><a class="nav_link" href="#">Услуги</a></li>
+					<li><a class="nav_link" href="#">Кейсы</a></li>
+					<li><a class="nav_link" href="#">Прайс</a></li>
+					<li><a class="nav_link" href="#">Отзывы</a></li>
+					<li><a class="nav_link" href="#">Контакты</a></li>
 				</ul></div>
 
 			</nav>
@@ -27,15 +29,20 @@
 
 	<div class="main">
 		<div class="title_container">
-		<h1>Привет <br> Я Андрей Браун</h1>	
-		<h4>Фулл стек веб-разработчик</h4>
+			<h1>Привет <br> Я Андрей Браун</h1>	
+			<h4>Фулл стек веб-разработчик</h4>
 		<input type="submit" value="Обо мне">
 		<input type="submit" value="Мои работы">
 	</div></div>
-	<div class="about me">
+	<div class="about_me">
 		<h2>Обо мне</h2>
-			<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Libero possimus labore ducimus excepturi animi in repellat nobis nam eius cupiditate.</p>
-			<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Libero possimus labore ducimus excepturi animi in repellat nobis nam eius cupiditate.</p>
+
+			<div class="photo_png">
+				
+			</div>
+
+				<p>Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Temporibus nesciunt dolorem iusto explicabo praesentium delectus, ut quidem ab molestiae incidunt officiis non vero recusandae commodi.</p>
+					<p>Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Temporibus nesciunt dolorem iusto explicabo praesentium delectus, ut quidem ab molestiae incidunt officiis non vero recusandae commodi.</p>
 
 			<div class="about_me_imput">
 				<input type="submit" value="Скачать резюме"  >
@@ -113,17 +120,31 @@
 
 		<div class="Cost_calculation_text">
 			<h2>Тип сайта</h2>
-				<input type="submit" value="Выберите пункт">
+				<select>
+					<option value="service website">Сайт услуг</option>
+					<option value="search system">Поисковая система</option> 
+					<option value="Business card site">Сайт-визитка</option>  
+					
+				</select>
 		</div>
 
 		<div class="Cost_calculation_text">
 			<h2>Дизайн</h2>	
-				<input type="submit" value="Выберите пункт">
-		</div>
+				<select>
+					<option value="1">1</option>
+					<option value="2">2</option> 
+					<option value="3">3</option>  
+					
+				</select>
 
 		<div class="Cost_calculation_text">
 			<h2>Адаптивность</h2>
-				<input type="submit" value="Выберите пункт">
+				<select>
+					<option value="android">Android</option>
+					<option value="ios">IOS</option> 
+					<option value="windows">Windows</option>  
+					
+				</select>
 		</div>
 
 		<div class="Cost_calculation_text">
