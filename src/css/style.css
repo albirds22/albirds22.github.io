@@ -70,7 +70,7 @@ padding-left: 216px;
 }
 
 .about_me{
-	weight:100%;
+	width:100%;
 	height: 100%;
 }
 
@@ -93,13 +93,189 @@ padding-left: 216px;
 }
 
 .photo_png{
-width: 100%;
-height:100%;
-	background: url(../img/photo.jpg) 50% 5%/auto no-repeat ;
+background: url(../img/photo.png) center
+ no-repeat;
+
+width: 50%;
+height: 50%;
+display: block;
+margin: 0 auto;
+	
 }
 
 .about_me p{
 	float: left;
+	text-align: justify;	
+	hyphens: 	auto;
+	line-height: 1.5;
+}
+
+.about_me input{
+	height: 35px;
+	text-align:60% 0%;
+	border: 2px solid #6d7682;
+	border-radius: 4px;
+	color: #6d7682;
+	font-size: 12px;
+	padding:0px 20px;
+	margin: 3%  45% 0%;
+	background: url(../img/icon_download.png) 3% 47% no-repeat;
+}
+
+.skills_container{
+	background: url(../img/skills_fon.jpg)  no-repeat	 ;
+	width: 100%;
+	height: 515px;
+}
+.skills_container h2{
+text-align: center;
+font-size: 24px;
+text-transform: uppercase;
+color:#263244;
+font-weight: bold;
+padding-top:50px ;
+}
+
+.skills_container h2:after{
+	content:"";
+	display: block;
+	width: 74px;
+	height: 3px;
+	background-color: #d17700;
+	margin: 2% 47%;
+}
+
+.skills_item1{
+	width: 56px;
+	height: 39px;
+	background: url(../img/notebook.png) no-repeat;
+	margin: 100px 150px;
+}
+
+.skills_item1 h4{
+	font-size: 18px;
+	color:#cf7600;
 	text-align: center;
-	
+	padding:50px 50px 0px 0px;
+	white-space: nowrap	;	
+}
+
+.skills_item p{
+	font-size: 14px;
+	color: #3f495a;
+	text-align:center;
+}
+
+.skills_item2{
+	width:56px;
+	height:39px;
+	background: url(../img/znak.png)  no-repeat;
+	margin:-138px 400px;
+}
+
+.skills_item2 h4{
+	font-size: 18px;
+	color:#cf7600;
+	text-align: center;
+	padding:50px 50px 0px 0px;
+	white-space: nowrap	;	
+}
+
+.skills_item3{
+	width:56px;
+	height:40px;
+	background: url(../img/rocket.png)  no-repeat;
+	margin: 100px 675px;
+}
+
+.skills_item3 h4{
+	font-size: 18px;
+	color:#cf7600;
+	text-align: center;
+	padding:50px 50px 0px 0px;
+	white-space: nowrap	;
+}
+
+.skills_item4{
+	width:56px;
+	height:40px;
+	background: url(../img/grammofon.png)  no-repeat;
+	margin: -135px 975px;
+}
+
+.skills_item4 h4{
+	font-size: 18px;
+	color:#cf7600;
+	text-align: center;
+	padding:50px 50px 0px 0px;
+	white-space: nowrap	;
+}
+
+.skills_container p{
+	color: #3f495a;
+}
+
+.keys_text h2{
+text-align: center;
+font-size: 24px;
+text-transform: uppercase;
+color:#263244;
+font-weight: bold;
+padding-top:50px ;
+}
+
+.keys_text h2:after{
+content:"";
+display: block;
+width: 74px;
+height: 3px;
+background-color: #d17700;
+margin: 2% 47%;
+}
+
+.keys_text p{
+color: #626976;
+text-align: center;
+}
+
+.keys_item{
+	width: 1168px;
+	height: 594px;
+	background: url(../img/case.jpg) no-repeat;
+	margin-left: 100px;
+}
+
+.keys_text2 h4{
+	color: #384354;
+	font-size: 28px;
+	font-weight: 600;
+	margin-left: 100px;
+
+}
+
+.keys_text2 p{
+	color: #384354;
+	font-size: 16px;
+	margin-left: 100px;
+	padding-top: 10px;
+
+}
+
+.keys_text3 h4{
+	color: #384354;
+	font-size: 28px;
+	font-weight: 600;
+	margin-left: 100px;	
+	margin-top: 15px;
+}
+
+.keys_text3 p{
+	color: #384354;
+	font-size: 16px;
+	margin-left: 100px;
+	padding-top: 10px;
+ }
+
+.keys_text3 p:after{
+
 }
